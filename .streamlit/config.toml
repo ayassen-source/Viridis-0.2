@@ -1,0 +1,20 @@
+[theme]
+# Dark eco theme (matches the in-app design)
+base = "dark"
+primaryColor = "#2e7d32"
+backgroundColor = "#0d1117"
+secondaryBackgroundColor = "#161b22"
+textColor = "#e6edf3"
+font = "sans serif"
+
+[server]
+# Faster uploads / larger Plotly figures
+maxUploadSize = 50
+enableCORS = false
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
